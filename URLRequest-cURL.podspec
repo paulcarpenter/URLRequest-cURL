@@ -14,7 +14,7 @@ DESC
   s.author           = { "depoon" => "de_poon@hotmail.com" }
   s.source           = { :git => "https://github.com/paulcarpenter/URLRequest-cURL.git", :tag => s.version.to_s }
 
-  s.platform     = { ios: '10.0', watchos: '2.0', tvos: '10.0', macos: '10.10' }
+  s.platform     = { ios: '10.0', watchos: '2.0', tvos: '10.0', osx: '10.10' }
   s.requires_arc = true
 
   s.source_files = 'Source/**/*'
